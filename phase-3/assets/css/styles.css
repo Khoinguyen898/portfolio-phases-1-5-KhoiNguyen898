@@ -49,6 +49,11 @@ article > header {
     background-color: #999999;
     padding: 5px;
 }
+article > img {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
 article > footer {
     font-size: 12px;
     text-align: right;
@@ -104,6 +109,12 @@ aside {
         background-color: #999999;
         margin: 100px auto;
         display: flex;
+    }
+
+    article > img {
+        position: relative;
+        height: auto;
+        width: 100%;
     }
     .main-section {
         width: 75%;
@@ -177,5 +188,10 @@ aside {
     }
     aside footer:empty {
         display: none;
+    }
+    aside img {
+        position: relative;
+        height: auto;
+        width: 100%;
     }
 }

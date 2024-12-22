@@ -12,6 +12,19 @@
     z-index: 1000;
 }
 
+main {
+    margin-top: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+.main-section {
+    border: 1px solid #000000;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
 .top-nav-menu {
     display: none;
 }

@@ -56,4 +56,28 @@ aside {
         width: 100%;
         z-index: 1000;
     }
+    .hamburger-menu {
+        display: none;
+    }
+    .top-nav-menu {
+        background: #999999;
+        color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        position: fixed;
+        top: 30px;
+        width: 100%;
+        height: auto;
+    }
+    .top-nav-menu li {
+        color: #000000;
+        margin: 0 10px;
+        display: inline-flex;
+    }
+    .top-nav-menu li a {
+        color: #000000;
+        text-decoration: none;
+    }
 }

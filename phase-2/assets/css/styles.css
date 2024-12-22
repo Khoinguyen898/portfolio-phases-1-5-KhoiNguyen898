@@ -11,7 +11,9 @@
     width: 100%;
     z-index: 1000;
 }
-
+.top-nav-menu {
+    display: none;
+}
 main {
     margin-top: 60px;
     padding: 20px;
@@ -24,11 +26,15 @@ main {
     background-color: #ffffff;
     margin-bottom: 20px;
 }
-
-.top-nav-menu {
-    display: none;
+.main-footer {
+    background-color: #999999;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    display: flex;
 }
-
 .main-footer > nav {
     display: none;
 }

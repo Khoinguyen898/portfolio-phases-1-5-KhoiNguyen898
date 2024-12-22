@@ -11,3 +11,15 @@
     width: 100%;
     z-index: 1000;
 }
+
+.top-nav-menu {
+    display: none;
+}
+
+.main-footer > nav {
+    display: none;
+}
+
+aside {
+    display: none;
+}

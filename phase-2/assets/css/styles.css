@@ -137,4 +137,22 @@ aside {
         color: #000000;
         text-decoration: none;
     }
+    .main-section > article {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 45%;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    article > header, article > footer {
+        font-size: 18px;
+        text-align: center;
+        align-items: center;
+        background-color: #999999;
+        padding: 15px;
+        display: block;
+    }
+    article > footer:empty {
+        display: none;
+    }
 }

@@ -155,4 +155,27 @@ aside {
     article > footer:empty {
         display: none;
     }
+    aside{
+        width: 35%;
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        border: 1px solid #000000;
+        background-color: #ffffff;
+        gap: 10px;
+        margin: 10px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    aside header, aside footer {
+        background-color: #999999;
+        color: #000000;
+        padding: 5px;
+        font-size: 18px;
+        text-align: center;
+        display: block;
+    }
+    aside footer:empty {
+        display: none;
+    }
 }

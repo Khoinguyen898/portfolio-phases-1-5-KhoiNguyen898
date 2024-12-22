@@ -95,4 +95,27 @@ aside {
         flex-wrap: wrap;
         text-align: center;
     }
+    .main-footer {
+        background-color: #999999;
+        color: #000000;
+        justify-content: center;
+        align-items: center;
+        bottom: 0;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        z-index: 9999;
+    }
+    .main-footer > nav {
+        display: flex !important;
+    }
+    .main-footer li {
+        color: #000000;
+        margin: 0 10px;
+        display: block;
+    }
+    .main-footer li a {
+        color: #000000;
+        text-decoration: none;
+    }
 }

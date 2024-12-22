@@ -42,3 +42,18 @@ main {
 aside {
     display: none;
 }
+
+@media screen and (min-width: 1200px) {
+    .main-header {
+        background: #999999;
+        color: #000000;
+        padding: 10px;
+        display: flex;
+        text-align: left;
+        font-size: 15px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+}

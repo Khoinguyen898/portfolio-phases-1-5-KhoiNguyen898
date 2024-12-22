@@ -1,0 +1,235 @@
+.main-header {
+    background: #00FFFF;
+    color: #C45508;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    font-size: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header {
+    background: #00FFFF;
+    color: black;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    font-size: 10px;
+}
+
+header > h1 {
+    text-align: left;
+    font-size: 16px;
+}
+
+header > .hamburger-menu {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+    text-align: right;
+}
+header > nav {
+    display: none;
+}
+main > aside {
+    display: none;
+}
+
+footer > nav, footer > h6 {
+    display: none;
+}
+
+
+main > article {
+    margin: 50px;
+    border: #ffffff solid 2px;
+    padding: 10px;
+    color: #A4BF20;
+    background-color: #000000;
+}
+
+footer {
+    width: 100%;
+    background-color: #00FFFF;
+    padding: 10px 0;
+    text-align: center;
+}
+
+body {
+    background-color: #BE9C67
+}
+
+.main-footer {
+    background-color: #00FFFF;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+}
+@media screen and (min-width: 1200px) {
+    .main-header {
+        background: #00FFFF;
+        color: #C45508;
+        padding: 10px;
+        display: flex;
+        text-align: center;
+        font-size: 10px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    header {
+        background: #00FFFF;
+        color: black;
+        padding: 10px;
+        display: flex;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .article-container {
+        border: 2px solid #ffffff;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+        gap: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    header > nav {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        text-align: left;
+        position: relative;
+        top: 10px;
+        z-index: 0;
+    }
+
+    header > nav li {
+        display: inline;
+        padding: 15px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 3fr 1fr; /* Main content and aside */
+        gap: 20px;
+        width: 100%;
+        margin-top: 50px;
+        background-color: #BE9C67;
+    }
+
+
+    main > aside {
+        grid-area: aside;
+        background-color: #00FFFF;
+        padding: 20px;
+        border: #ffffff solid 2px;
+        margin: 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-self: start;
+    }
+
+    aside > section{
+        padding: 10px;
+    }
+
+    main > article {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border: 2px solid #ffffff;
+        background-color: #000000;
+        color: #A4BF20;
+        height: auto;
+    }
+
+    .first-article {
+        grid-area: first-article;
+    }
+
+    .second-article {
+        grid-area: second-article;
+    }
+
+    .third-article {
+        grid-area: third-article;
+    }
+
+    .fourth-article {
+        grid-area: fourth-article;
+    }
+
+    .fifth-article {
+        grid-area: fifth-article;
+    }
+
+    .sixth-article{
+        grid-area: sixth-article;
+    }
+
+    .first-stories{
+        grid-area: first-stories;
+    }
+
+    .second-stories{
+        grid-area: second-stories;
+    }
+
+    .main-footer {
+        background: #00FFFF;
+        padding: 10px 10px;
+        display: flex;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    body {
+        padding-bottom: 50px;
+        background-color: #BE9C67;
+    }
+    footer {
+        width: 100%;
+        background-color: #00FFFF;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    footer > nav, footer > h6 {
+        display: flex;
+        color: #C45508;
+        align-items: center;
+    }
+
+    footer > nav > ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    footer nav ul li {
+        margin: 0 10px;
+    }
+
+    footer nav ul li a {
+        text-decoration: none;
+        padding: 5px 10px;
+        color: #C45508;
+    }
+}
